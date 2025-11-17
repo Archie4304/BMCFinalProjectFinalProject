@@ -10,9 +10,9 @@ import 'package:google_fonts/google_fonts.dart'; // 1. ADD THIS IMPORT
 // 2. --- ADD OUR NEW APP COLOR PALETTE ---
 // Pink Art & Craft Store color palette
 const Color kRichBlack = Color(0xFF1D1F24);
-const Color kPink = Color(0xFF32E91E);
-const Color kLightPink = Color(0xFF6A1935);
-const Color kOffWhite = Color(0xFFD5B9CA);
+const Color kPink = Color(0xFF451F14);
+const Color kLightPink = Color(0xFF682718);
+const Color kOffWhite = Color(0xFFFBBC98);
 // --- END OF COLOR PALETTE ---
 
 void main() async {
@@ -100,7 +100,7 @@ class MyApp extends StatelessWidget {
         // 7. --- (FIX) GLOBAL CARD STYLE ---
         cardTheme: CardThemeData(
           elevation: 1, // A softer shadow
-          color: Colors.blueAccent, // Pure white cards on the off-white bg
+          color: Colors.white, // Pure white cards on the off-white bg
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
@@ -110,7 +110,7 @@ class MyApp extends StatelessWidget {
 
         // 9. --- (NEW) GLOBAL APPBAR STYLE ---
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.grey, // Clean white AppBar
+          backgroundColor: Colors.brown, // Clean white AppBar
           foregroundColor: kRichBlack, // Black icons and text
           elevation: 0, // No shadow, modern look
           centerTitle: true,
